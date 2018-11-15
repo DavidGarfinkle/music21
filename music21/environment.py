@@ -537,7 +537,7 @@ class _EnvironmentCore:
 
         if not refDir.exists():
             raise EnvironmentException(
-                'user-specified scratch directory ({:s}) does not exist; '
+                'user-specified scratch directory ({!s}) does not exist; '
                 'remove preference file or reset Environment'.format(
                     refDir))
         else:
